@@ -1,0 +1,44 @@
+{
+  "category" : "Addressing Modes of 8086",
+  "quizes" : [{
+    "question" : "The instruction, MOV AX, 0005H belongs to the address mode",
+    "choices" : [{"Register" : false}, {"Direct": false}, {"Immediate": true}, {"Implicit": false}, {"Register Relative": false}]
+  },
+  {
+    "question" : "The instruction, MOV AX, [2500H] is an example of",
+    "choices" : [{" immediate addressing mode": false}, {"indirect addressing mode" : false}, {"Relative Register": false}, {"Direct addressing mode": true}, {"Sportmen": false}]
+  },
+  {
+    "question" : "If the data is present in a register and it is referred using the particular register, then it is",
+    "choices" : [{"direct addressing mode" : false}, {"register addressing mode": true}, {"immediate addressing mode": false}, {"indexed addressing mode": false}, {"Implicit": false}]
+  },
+  {
+    "question" : "If the offset of the operand is stored in one of the index registers, then it is",
+    "choices" : [{"based indexed addressing mode" : false}, {"indexed addressing mode": true}, {"relative based indexed addressing mode": false}, {"Implicit": false}, {" none of the mentioned": false}]
+  },
+  {
+    "question" : "Which addressing mode execute its instructions within CPU without the necessity of reference memory for operands?",
+    "choices" : [{" Register Mode" : true}, {"Implied Mode": false}, {"Immediate Mode": false}, {"Direct Mode": false}, {" None": false}]
+  },
+  {
+    "question" : "The contents of a base register are added to the contents of index register in",
+    "choices" : [{" based indexed and relative based indexed addressing mode" : true}, {"indexed addressing mode": false}, {"based indexed addressing mode": false}, {"relative based indexed addressing mode": false}, {"None": false}]
+  },
+  {
+    "question" : "The instruction, MOV AX, 1234H is an example of",
+    "choices" : [{" register addressing mode" : false}, {"based indexed addressing mode": false}, {"immediate addressing mode": true}, {"All of the above": false}, {"None": false}]
+  },
+  {
+    "question" : "Which is the most widely used addressing mode in programming?",
+    "choices" : [{"Direct" : false}, {"Register": false}, {"Implicit": false}, {"Indirect": true}, {"None of the above": false}]
+  },
+  {
+    "question" : "Addressing mode which is set to index arrays, is applied to indexed addressing mode, in computers is",
+    "choices" : [{"Register addressing mode" : false}, {"None": true}, {"Direct": false}, {"Indirect": false}, {"Immediate": false}]
+  },
+  {
+    "question" : "How many minimum addressing modes are there in 8086",
+    "choices" : [{"20" : false}, {"15": false}, {"12": false}, {"10": true}, {"25": false}]
+  }]
+
+}
